@@ -6,6 +6,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 .logo-link-blue {
     font-family: 'Raleway', sans-serif;
@@ -15,18 +16,17 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.logo-link-black {
-    color: #212121;
-}
 .logo-link-white {
     color: #FFFFFF;
+}
+.logo-link-black {
+    color: #212121;
 }
 .menu-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -64,7 +64,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .aboutus-suptitles {
     font-weight: 400;
@@ -78,14 +77,12 @@ body {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .ourteam-names {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .ourteam-jobposition {
     font-weight: 400;
@@ -113,7 +110,6 @@ body {
     font-size: 16px;
     line-height: 1.625;
     letter-spacing: 0.03em;
-    color: #212121;
     cursor: pointer;
 }
 .modal-btns:hover,
@@ -125,7 +121,6 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 .projects-discription {
     font-weight: 400;
