@@ -1,3 +1,9 @@
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --accent-color: #188CE8;    
+}
+
 .link {
     text-decoration: none;
 }
@@ -5,11 +11,11 @@
     list-style:none;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font-family);
     color: #212121;
 }
 .logo-link-blue {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -60,7 +66,7 @@ body {
 }
 .modal-btn:hover,
 .modal-btn:focus {
-    background: #188CE8;
+    background: var(--accent-color);
 }
 .projects-item-link {
     font-style: normal;
